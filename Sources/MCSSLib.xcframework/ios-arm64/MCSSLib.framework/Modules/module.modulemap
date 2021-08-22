@@ -1,0 +1,11 @@
+framework module MCSSLib {
+  umbrella header "MCSSLib.h"
+
+  export *
+  module * { export * }
+}
+
+module MCSSLib.Swift {
+    header "MCSSLib-Swift.h"
+    requires objc
+}
