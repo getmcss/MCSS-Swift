@@ -1,11 +1,11 @@
+[![](http://docs.getmcss.com/img/logo_MCSS_pink.37f6be9a.svg)](https://www.getmcss.com)
+
 # OVERVIEW
 MCSS (Mobile Cascade Style Sheet) is a new technology library based to speed up the development of native mobile apps. MCSS describes how the views and the different components are to be displayed on the mobile devices. MCSS saves a lot of work and time, it can control the layout of multiple views all at once.
 
 MCSS is not a hybrid technology, applications developed using MCSS continue being native, you can use your favorite IDE, XCode, Android Studio, Eclipse, etc. Just connecting this powerful library to your project ([how to install MCSS on your application project](https://docs.getmcss.com/installation-swift)) and doing a short implementation, your app will take the design described in the .mcss files.
 
 Once you create a .mcss file, residing either on an external URL or stored locally in your project, the library will apply the instructions of your .mcss file to the different views and components. Just like CSS works on an HTML website. ([Read about the properties and components supported by MCSS](https://docs.getmcss.com/selectors)).
-
-![](http://docs.getmcss.com/img/logo_MCSS_pink.37f6be9a.svg)
 
 # WHY MCSS?
 
