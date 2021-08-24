@@ -25,6 +25,34 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 - As the MCSS File (Stylesheet) can be connected via URL, the developers can update the design of applications in production skiping the process of submiting new versions to the app stores. 
 
+# HOW TO INSTALL
+
+### Swift Package Manager:
+
+1.  In Xcode, select File > Swift Packages > Add Package Dependency.
+
+2.  Follow the prompts using the Github URL: https://github.com/mcsslib/mcss-swift.git and a minimum semantic version of v1.0.0
+
+    ```
+    https://github.com/mcsslib/mcss-swift  
+    ```
+
+
+### Manual installation:
+
+1.  Download the MCSSLib.xcframework library and the UIView+MCSS.swift file class from https://github.com/mcsslib/mcss-swift or use the command: 
+
+    ```
+    git clone https://github.com/mcsslib/mcss-swift  
+    ```
+
+    Both files can be located in the [sources](https://github.com/MCSSLIB/MCSS-Swift/tree/main/Sources) directory.
+
+2.  Drag and drop MCSSLib.xcframework and UIView+MCSS.swift to your project, mark the option copy items if needed.
+
+3.  Go to embedded content and mark mcss as embed and sign.
+
+
 # COPYRIGHT & LICENSE
 © 2021 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
 
