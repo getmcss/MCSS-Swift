@@ -1,5 +1,7 @@
 [![](http://docs.getmcss.com/img/logo_MCSS_pink.37f6be9a.svg)](https://www.getmcss.com)
 
+<p align="center"><a href="https://getmcss.com" target="_blank"><img src="https://getmcss.com/_nuxt/img/logo.bdd3922.svg" width="400"></a></p>
+
 # OVERVIEW
 MCSS (Mobile Cascade Style Sheet) is a new technology library based to speed up the development of native mobile apps. MCSS describes how the views and the different components are to be displayed on the mobile devices. MCSS saves a lot of work and time, it can control the layout of multiple views all at once.
 
