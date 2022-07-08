@@ -33,22 +33,22 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 1.  In Xcode, select File > Swift Packages > Add Package Dependency.
 
-2.  Follow the prompts using the Github URL: https://github.com/mcsslib/mcss-swift.git and a minimum semantic version of v1.0.0
+2.  Follow the prompts using the Github URL: https://github.com/getmcss/mcss-swift.git and a minimum semantic version of v1.0.0
 
     ```
-    https://github.com/mcsslib/mcss-swift  
+    https://github.com/getmcss/mcss-swift  
     ```
 
 
 ### Manual installation:
 
-1.  Download the MCSSLib.xcframework library and the UIView+MCSS.swift file class from https://github.com/mcsslib/mcss-swift or use the command: 
+1.  Download the MCSSLib.xcframework library and the UIView+MCSS.swift file class from https://github.com/getmcss/mcss-swift or use the command: 
 
     ```
-    git clone https://github.com/mcsslib/mcss-swift  
+    git clone https://github.com/getmcss/mcss-swift  
     ```
 
-    Both files can be located in the [sources](https://github.com/MCSSLIB/MCSS-Swift/tree/main/Sources) directory.
+    Both files can be located in the [sources](https://github.com/getmcss/MCSS-Swift/tree/main/Sources) directory.
 
 2.  Drag and drop MCSSLib.xcframework and UIView+MCSS.swift to your project, mark the option copy items if needed.
 
