@@ -56,6 +56,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 
 # COPYRIGHT & LICENSE
-© 2021 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
+© 2022 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
 
 [MCSS License](https://www.getmcss.com/end-user-license).
