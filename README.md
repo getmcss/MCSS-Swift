@@ -1,5 +1,7 @@
 [![](http://docs.getmcss.com/img/logo_MCSS_pink.37f6be9a.svg)](https://www.getmcss.com)
 
+<p align="center"><a href="https://getmcss.com" target="_blank"><img src="https://getmcss.com/_nuxt/img/logo.bdd3922.svg" width="400"></a></p>
+
 # OVERVIEW
 MCSS (Mobile Cascade Style Sheet) is a new technology library based to speed up the development of native mobile apps. MCSS describes how the views and the different components are to be displayed on the mobile devices. MCSS saves a lot of work and time, it can control the layout of multiple views all at once.
 
@@ -31,22 +33,22 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 1.  In Xcode, select File > Swift Packages > Add Package Dependency.
 
-2.  Follow the prompts using the Github URL: https://github.com/mcsslib/mcss-swift.git and a minimum semantic version of v1.0.0
+2.  Follow the prompts using the Github URL: https://github.com/getmcss/mcss-swift.git and a minimum semantic version of v1.0.0
 
     ```
-    https://github.com/mcsslib/mcss-swift  
+    https://github.com/getmcss/mcss-swift  
     ```
 
 
 ### Manual installation:
 
-1.  Download the MCSSLib.xcframework library and the UIView+MCSS.swift file class from https://github.com/mcsslib/mcss-swift or use the command: 
+1.  Download the MCSSLib.xcframework library and the UIView+MCSS.swift file class from https://github.com/getmcss/mcss-swift or use the command: 
 
     ```
-    git clone https://github.com/mcsslib/mcss-swift  
+    git clone https://github.com/getmcss/mcss-swift  
     ```
 
-    Both files can be located in the [sources](https://github.com/MCSSLIB/MCSS-Swift/tree/main/Sources) directory.
+    Both files can be located in the [sources](https://github.com/getmcss/MCSS-Swift/tree/main/Sources) directory.
 
 2.  Drag and drop MCSSLib.xcframework and UIView+MCSS.swift to your project, mark the option copy items if needed.
 
@@ -54,6 +56,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 
 # COPYRIGHT & LICENSE
-© 2021 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
+© 2022 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
 
 [MCSS License](https://www.getmcss.com/end-user-license).
