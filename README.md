@@ -1,4 +1,4 @@
-[![](http://docs.getmcss.com/img/logo_MCSS_pink.37f6be9a.svg)](https://www.getmcss.com)
+[![](https://docs.getmcss.com/img/logo_MCSS_black.850b7089.svg)](https://www.getmcss.com)
 
 <p align="center"><a href="https://getmcss.com" target="_blank"><img src="https://getmcss.com/_nuxt/img/logo.bdd3922.svg" width="400"></a></p>
 
