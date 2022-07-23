@@ -1,4 +1,4 @@
-[![](https://getmcss.com/_nuxt/img/logo.bdd3922.svg`)](https://www.getmcss.com)
+[![](https://getmcss.com/_nuxt/img/logo.bdd3922.svg)](https://www.getmcss.com)
 
 
 # OVERVIEW
