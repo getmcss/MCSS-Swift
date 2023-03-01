@@ -29,13 +29,18 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 ### Swift Package Manager:
 
-1.  In Xcode, select File > Swift Packages > Add Package Dependency.
+1.  In Xcode, go to File > Add Packages…
 
-2.  Follow the prompts using the Github URL: https://github.com/getmcss/mcss-swift.git and a minimum semantic version of v1.0.0
+2.  Copy the Github URL: https://github.com/getmcss/MCSS-Swift.git  into the "Search or enter Package URL" field
 
     ```
     https://github.com/getmcss/mcss-swift  
     ```
+
+3.  In dependency rules choose "up to next major" and a minor version of 1.0.4
+
+
+4.  4. Click "Add Package" and Follow the prompts
 
 
 ### Manual installation:
@@ -54,6 +59,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 
 # COPYRIGHT & LICENSE
-© 2022 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
+© 2023 MCSS | getmcss.com | Do Genius On. All rights reserved | Patent pending 
 
 [MCSS License](https://www.getmcss.com/end-user-license).

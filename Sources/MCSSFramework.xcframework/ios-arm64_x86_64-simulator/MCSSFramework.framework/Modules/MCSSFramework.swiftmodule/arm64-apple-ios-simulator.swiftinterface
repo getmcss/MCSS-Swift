@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MCSSFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CryptoKit
+import Foundation
+@_exported import MCSSFramework
+import MapKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum MCSSTheme : Swift.String {
+  case snow, love, lemonmilk, pet, moon, scarlet, acid, deepblue, turquoise, rainbow, sober, dark, minimal, retroterminal, none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@IBDesignable extension UIKit.UIView {
+  public struct MCSS {
+    public var classes: Swift.String
+    public var id: Swift.String
+    public var fixed: Swift.Bool
+  }
+  @_Concurrency.MainActor(unsafe) public var mcss: UIKit.UIView.MCSS {
+    get
+    set
+  }
+}
+@_hasMissingDesignatedInitializers public class MCSS {
+  public static let shared: MCSSFramework.MCSS
+  public func initialize(withKey key: Swift.String)
+  public func useTheme(named name: Swift.String)
+  public func useTheme(_ name: MCSSFramework.MCSSTheme)
+  public func addStylesheet(fromFile file: Swift.String)
+  public func addStylesheet(fromUrl url: Swift.String)
+  public func apply(in viewController: UIKit.UIViewController)
+  public func apply(in view: UIKit.UIView)
+  public func apply(in cell: UIKit.UITableViewCell, forTable table: UIKit.UITableView, index: Foundation.IndexPath)
+  public func apply(in cell: UIKit.UICollectionViewCell, forCollection collection: UIKit.UICollectionView, index: Foundation.IndexPath)
+  @objc deinit
+}
+extension MCSSFramework.MCSSTheme : Swift.Equatable {}
+extension MCSSFramework.MCSSTheme : Swift.Hashable {}
+extension MCSSFramework.MCSSTheme : Swift.RawRepresentable {}
